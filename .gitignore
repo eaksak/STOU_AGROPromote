@@ -1,0 +1,13 @@
+# Non-ASCII Raw textbook PDFs (Prevents GitHub Actions checkout failure)
+*.pdf
+!AGRO_Promote_15_Units_Content_Summary.pdf
+!AGRO_Promote_Exam_750_Questions.pdf
+!content_summaries/pdf/*.pdf
+
+# Raw text dumps and temp files
+extracted_texts/
+temp_check.js
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
